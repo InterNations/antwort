@@ -1,0 +1,37 @@
+body {
+    font: 16px/1.3em 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+a:link {
+    color: $blue;
+}
+a:visited {
+    color: darken($blue, 10%);
+}
+
+a:hover,
+a:active {
+    color: $redorange;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.3em;
+    color: $blue;
+    &.claim {
+        text-align: center;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: $blue;
+}
+
+h3 {
+    font-size: 1.17em;
+    line-height: 1.3em;
+}

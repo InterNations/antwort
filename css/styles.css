@@ -1,0 +1,113 @@
+@import url(normalize.css);
+body {
+  font: 16px/1.3em "PT Sans", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+a:link {
+  color: #2469a0;
+}
+
+a:visited {
+  color: #1b4e76;
+}
+
+a:hover,
+a:active {
+  color: #d03c0f;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #2469a0;
+}
+h1.claim {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color: #2469a0;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.3em;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: 700px;
+  margin: 1em auto;
+  padding: 1em 3em;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 3em;
+  line-height: 48px;
+  color: #d03c0f;
+  margin: 0 .25em 0 0;
+}
+
+.site-subtitle {
+  font-size: 1.2em;
+  line-height: 48px;
+  margin: 0;
+  display: inline-block;
+  font-weight: 400;
+  color: #999;
+}
+
+.site-content {
+  background-color: #fff;
+}
+
+.hero-image {
+  text-align: center;
+}
+.hero-image img {
+  max-width: 100%;
+}
+
+.section {
+  margin-top: 1em;
+  border-top: 1px solid #d0d0d0;
+}
+
+.why-list {
+  padding-left: 0;
+  margin-top: 2em;
+}
+.why-list li {
+  list-style-type: square;
+  margin-bottom: 2em;
+  color: #d03c0f;
+}
+.why-list li h3, .why-list li p {
+  color: #333;
+}
+
+.why-headline {
+  margin: 0 0 -0.5em 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .why-list {
+    padding-left: 1em;
+  }
+}

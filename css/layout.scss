@@ -1,0 +1,76 @@
+
+.wrapper {
+    width: 95%;
+    max-width: 700px;
+    margin: 1em auto;
+    padding: 1em 3em;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.site-title {
+   display: inline-block;
+   font-size: 3em;
+   line-height: 48px;
+   color: $redorange;
+   margin: 0 .25em 0 0;
+}
+
+.site-subtitle {
+    font-size: 1.2em;
+    line-height: 48px;
+    margin: 0;
+    display: inline-block;
+    font-weight: 400;
+    color: #999;
+}
+
+.site-content {
+    background-color: #fff;
+}
+
+.hero-image {
+    text-align: center;
+    img {
+        max-width: 100%;
+    }
+}
+
+.section {
+    margin-top: 1em;
+    border-top: 1px solid #d0d0d0;
+}
+
+.why-list {
+    padding-left: 0;
+    margin-top: 2em;
+
+    li {
+        list-style-type: square;
+        margin-bottom: 2em;
+        color: $redorange; // bullet
+        h3, p {
+            color: #333;
+        }
+    }
+}
+
+.why-headline {
+    margin: 0 0 -.5em 0;
+}
+
+
+// Mobile Typography
+// -----------------------------
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+    .why-list {
+        padding-left: 1em;
+    }
+}
