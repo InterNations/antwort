@@ -1,4 +1,5 @@
 @import url(normalize.css);
+@import url(prism.css);
 body {
   font: 16px/1.3em "PT Sans", Helvetica, Arial, sans-serif;
   color: #333;

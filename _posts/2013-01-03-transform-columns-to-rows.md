@@ -26,7 +26,7 @@ An example columns container looks like this.
             </td>
         </tr>
     </table>
-
+{: .language-markup}
 
 To manipulate the columns into rows, you need the following styles in your `<head>`
 
@@ -35,7 +35,8 @@ To manipulate the columns into rows, you need the following styles in your `<hea
         td[class="force-col"] {
             display: block;
         }
-   }
+    }
+{: .language-css}
 
 
 I choose a breakpoint of `600px` instead of `480px` to catch small tablets in addition to smart phones.
@@ -70,13 +71,13 @@ Look at [`3columns-to-rows.html`]({{ site.repo_url }}/blob/master/templates/3col
             </td>
         </tr>
     </table>
-
+{: .language-markup}
 
 We need this extra wrapper table because in our mobile version we want to float/align the image to the right of the text, like this:
 
 ![Column Content Transformed to Row Layout](http://internations.github.com/antwort/images/content-row.png "Column Content Transformed to Row Layout")
 
-Whereas in normal HTML you need only apply `clear: both;` to an element, that does not work for some versions of Outlook. The bulletproof way to clear floated images is to wrap them in a `<table>`, above with a class of `col-3`.
+Whereas in normal HTML you need only apply `clear: both;`{: .language-css} to an element, that does not work for some versions of Outlook. The bulletproof way to clear floated images is to wrap them in a `<table>`, above with a class of `col-3`.
 
 And then we manipulate the layout with the following CSS *inside your media query*:
 
@@ -99,7 +100,7 @@ And then we manipulate the layout with the following CSS *inside your media quer
             margin-left: 6px;
             max-width: 130px;
         }
-
+{: .language-css}
 
 
 
