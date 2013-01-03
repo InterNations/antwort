@@ -33,7 +33,41 @@
                 padding-left: 12px !important;
                 padding-right: 12px !important;
             }
-         }
+        }
+
+
+        /* Styles for forcing columns to rows */
+        @media only screen and (max-width : 600px) {
+
+            /* force container columns to (horizontal) blocks */
+            td[class="force-col"] {
+                display: block;
+            }
+            table[class="col-3"] {
+                /* unset <table> align="left/right" */
+                float: none !important;
+                width: 100% !important;
+
+                /* change left/right padding and margins to top/bottom ones */
+                margin-bottom: 12px;
+                padding-bottom: 12px;
+                padding-right: 0 !important;
+                border-bottom: 1px solid #eee;
+            }
+
+            /* remove bottom border for last column/row */
+            table[id="last-col-3"] {
+                border-bottom: none !important;
+                margin-bottom: 0;
+            }
+
+            /* align images right and shrink them a bit */
+            img[class="col-3-img"] {
+                float: right;
+                margin-left: 6px;
+                max-width: 130px;
+            }
+        }
 
      </style>
 </head>
@@ -59,21 +93,6 @@
             </div>
             <br>
 
-            At the same foam-fountain, Queequeg seemed to drink and reel with me. His dusky nostrils swelled apart;
-            he showed his filed and pointed teeth. On, on we flew; and our offing gained, the Moss did homage to the
-            blast; ducked and dived her bows as a slave before the Sultan. Sideways leaning, we sideways darted; every
-            ropeyarn tingling like a wire; the two tall masts buckling like Indian canes in land tornadoes.
-            <br><br>
-
-            So full of this reeling scene were we, as we stood by the plunging bowsprit, that for some time we did not
-            notice the jeering glances of the passengers, a lubber-like assembly, who marvelled that two fellow beings
-            should be so companionable; as though a white man were anything more dignified than a whitewashed negro.
-            <br><br>
-
-            <em style="font-style:italic; font-size: 12px; color: #aaa;">Excerpt from Moby Dick, by Herman Melville</em>
-            <br><br>
-
-
             <table border="0" cellpadding="0" cellspacing="0" class="columns-container">
               <tr>
                 <td class="force-col" valign="top">
@@ -81,12 +100,11 @@
                     <!-- ### COLUMN 1 ### -->
                     <table border="0" cellspacing="0" cellpadding="0" width="175" align="left" style="padding-right: 20px;" class="col-3">
                     <tr>
-                        <td align="left" valign="top" style="font-family: Arial, sans-serif;">
-                            <img src="images/grey-175x130.png" alt="Meet the Mountains" border="0" hspace="0" vspace="0" style="vertical-align:top" class="col-3-img">
-
-                            <div style="margin: 1em 0 .5em 0"><a href="#" style="color:#2469A0; font-weight:bold">Herman Melville</a></div>
-                            <span style="font-size:13px; line-height: 18px;" class="ios-link">It's worse than being in the whirled woods, the last day of the year! Who'd go climbing after chestnuts now? But there they go, all cursing, and here I don't.<br></span>
-
+                        <td align="left" valign="top" style="font-size:13px; line-height: 18px; font-family: Arial, sans-serif;">
+                            <img src="images/grey-175x130.png" alt="Image Caption" border="0" hspace="0" vspace="0" style="vertical-align:top; margin-bottom:12px;" class="col-3-img">
+                            <a href="#" style="color:#2469A0; font-weight:bold">Herman Melville</a><br>
+                            It's worse than being in the whirled woods, the last day of the year! Who'd go climbing after chestnuts now? But there they go, all cursing, and here I don't.
+                            <br>
                         </td>
                     </tr>
                     </table>
@@ -97,12 +115,11 @@
                     <!-- ### COLUMN 2 ### -->
                     <table border="0" cellspacing="0" cellpadding="0" width="175" align="left" style="padding-right: 20px;" class="col-3">
                     <tr>
-                        <td align="left" valign="top" style="font-family: Arial, sans-serif;">
-                            <img src="images/grey-175x130.png" alt="Meet the Mountains" border="0" hspace="0" vspace="0" style="vertical-align:top" class="col-3-img">
-
-                            <div style="margin: 1em 0 .5em 0"><a href="#" style="color:#2469A0; font-weight:bold">Herman Melville</a></div>
-                            <span style="font-size:13px; line-height: 18px;" class="ios-link">It's worse than being in the whirled woods, the last day of the year! Who'd go climbing after chestnuts now? But there they go, all cursing, and here I don't.<br></span>
-
+                        <td align="left" valign="top" style="font-size:13px; line-height: 18px; font-family: Arial, sans-serif;">
+                            <img src="images/grey-175x130.png" alt="Image Caption" border="0" hspace="0" vspace="0" style="vertical-align:top; margin-bottom:12px;" class="col-3-img">
+                            <a href="#" style="color:#2469A0; font-weight:bold">Herman Melville</a><br>
+                            Fine prospects to 'em; they're on the road to heaven. Hold on hard! Jimmini, what a squall! But those chaps there are worse yet—they are your&hellip;
+                            <br>
                         </td>
                     </tr>
                     </table>
@@ -111,16 +128,15 @@
                 <td class="force-col"  valign="top">
 
                     <!-- ### COLUMN 3 ### -->
-                    <table border="0" cellspacing="0" cellpadding="0" width="175" align="left" style="padding-right: 20px;" class="col-3">
-                    <tr>
-                        <td align="left" valign="top" style="font-family: Arial, sans-serif;">
-                            <img src="images/grey-175x130.png" alt="Meet the Mountains" border="0" hspace="0" vspace="0" style="vertical-align:top" class="col-3-img">
-
-                            <div style="margin: 1em 0 .5em 0"><a href="#" style="color:#2469A0; font-weight:bold">Herman Melville</a></div>
-                            <span style="font-size:13px; line-height: 18px;" class="ios-link">It's worse than being in the whirled woods, the last day of the year! Who'd go climbing after chestnuts now? But there they go, all cursing, and here I don't.<br></span>
-
-                        </td>
-                    </tr>
+                    <table border="0" cellspacing="0" cellpadding="0" width="175" align="right" class="col-3" id="last-col-3">
+                        <tr>
+                            <td align="left" valign="top" style="font-size:13px; line-height: 18px; font-family: Arial, sans-serif;">
+                                <img src="images/grey-175x130.png" alt="Image Caption" border="0" hspace="0" vspace="0" style="vertical-align:top; margin-bottom:12px;" class="col-3-img">
+                                <a href="#" style="color:#2469A0; font-weight:bold">I am Ishmael</a><br>
+                                White squalls? white whale, shirr! shirr! Here have I heard all their chat just now, and the white whale—shirr! shirr!—but spoken of once! and&hellip;
+                                <br>
+                            </td>
+                        </tr>
                     </table>
 
                 </td>
