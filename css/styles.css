@@ -168,3 +168,14 @@ pre {
 .toc-desc {
   margin: 0;
   color: #999999; }
+
+.guide-backlink {
+  margin-bottom: -1em; }
+  .guide-backlink a:link,
+  .guide-backlink a:visited {
+    color: #999;
+    text-decoration: none; }
+  .guide-backlink a:hover,
+  .guide-backlink a:active {
+    color: #d03c0f;
+    text-decoration: underline; }

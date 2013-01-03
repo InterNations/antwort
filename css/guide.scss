@@ -22,3 +22,18 @@
     margin: 0;
     color: #999
 }
+
+.guide-backlink {
+    margin-bottom: -1em;
+    a:link,
+    a:visited {
+        color: #999;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: $redorange;
+        text-decoration: underline;
+    }
+}

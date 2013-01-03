@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: guide
 title: Transform Columns to Rows
 category: how
 description: Walkthrough for creating a layout with columns that automatically transforms to rows for smaller devices.
