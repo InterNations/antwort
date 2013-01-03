@@ -10,11 +10,22 @@
 }
 
 .site-title {
-   display: inline-block;
-   font-size: 3em;
-   line-height: 48px;
-   color: $redorange;
-   margin: 0 .25em 0 0;
+    display: inline-block;
+    font-size: 3em;
+    line-height: 48px;
+    color: $redorange;
+    margin: 0 .25em 0 0;
+
+    a:link,
+    a:visited {
+        color: $redorange;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: $blue;
+    }
 }
 
 .site-subtitle {

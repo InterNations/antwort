@@ -69,6 +69,13 @@ pre {
   line-height: 48px;
   color: #d03c0f;
   margin: 0 .25em 0 0; }
+  .site-title a:link,
+  .site-title a:visited {
+    color: #d03c0f;
+    text-decoration: none; }
+  .site-title a:hover,
+  .site-title a:active {
+    color: #2469a0; }
 
 .site-subtitle {
   font-size: 1.2em;
