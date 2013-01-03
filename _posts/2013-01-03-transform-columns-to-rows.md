@@ -8,7 +8,7 @@ category: how
 
 Most responsive email layouts feature single fluid columns, whose contents adjust to the width of the device. This experience may be underwhelming for desktop users who have more real estate for content.
 
-To illustrate how to create a more complex and interesting layout, for example columns that transform into rows for smaller screens, we'll walk through the code in [`3columns-to-rows.html`](blob/master/templates/3columns-to-rows.html), which works across all major email clients, *including* Outlook.
+To illustrate how to create a more complex and interesting layout, for example columns that transform into rows for smaller screens, we'll walk through the code in [`3columns-to-rows.html`]({{ site.repo_url }}/blob/master/templates/3columns-to-rows.html), which works across all major email clients, *including* Outlook.
 
 ## Columns Container Table
 
@@ -55,7 +55,7 @@ which basically consists of the following:
 * short copy
 
 
-Look at [`3columns-to-rows.html`](blob/master/templates/3columns-to-rows.html) and see we wrap out content in a table like so:
+Look at [`3columns-to-rows.html`]({{ site.repo_url }}/blob/master/templates/3columns-to-rows.html) and see we wrap out content in a table like so:
 
 
     <table border="0" cellspacing="0" cellpadding="0" width="175" align="left" style="padding-right: 20px;" class="col-3">

@@ -8,3 +8,5 @@ url:         http://localhost:4000
 source:      .
 destination: ./_site
 permalink:   none
+
+repo_url:   http://github.com/internations/antwort
