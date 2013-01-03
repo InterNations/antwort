@@ -1,0 +1,12 @@
+---
+layout: default
+title: Guide to Responsive Emails
+---
+
+To get started:
+
+<ul>
+{% for post in site.posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
