@@ -10,3 +10,4 @@ destination: ./_site
 permalink:   none
 
 repo_url:   http://github.com/internations/antwort
+pages_url:  http://internations.github.com/antwort

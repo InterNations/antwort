@@ -47,7 +47,7 @@ This example demonstrates converting 2 columns into rows, but the strategy is th
 
 Now let's improve our layout a bit and add content to our columns. Here we have a simple layout that flows like this:
 
-![Example Column Content Layout](http://internations.github.com/antwort/images/content-column.png "Example Column Content Layout")
+![Example Column Content Layout]({{ site.baseurl }}/images/content-column.png "Example Column Content Layout")
 
 which basically consists of the following:
 
@@ -75,7 +75,7 @@ Look at [`3columns-to-rows.html`]({{ site.repo_url }}/blob/master/templates/3col
 
 We need this extra wrapper table because in our mobile version we want to float/align the image to the right of the text, like this:
 
-![Column Content Transformed to Row Layout](http://internations.github.com/antwort/images/content-row.png "Column Content Transformed to Row Layout")
+![Column Content Transformed to Row Layout]({{ site.baseurl }}/images/content-row.png "Column Content Transformed to Row Layout")
 
 Whereas in normal HTML you need only apply `clear: both;`{: .language-css} to an element, that does not work for some versions of Outlook. The bulletproof way to clear floated images is to wrap them in a `<table>`, above with a class of `col-3`.
 
