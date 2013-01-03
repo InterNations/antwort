@@ -2,7 +2,7 @@
 layout: guide
 title: Coding Style
 category: how
-description: General coding types about markup styles for email.
+description: Basic differences and best practices when writing HTML for email clients instead of websites.
 ---
 
 
