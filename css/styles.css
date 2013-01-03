@@ -63,6 +63,18 @@ pre {
   box-sizing: border-box;
   /* Opera/IE 8+ */ }
 
+.site-header {
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 0; }
+  .site-header:before, .site-header:after {
+    content: " ";
+    display: table; }
+  .site-header:after {
+    clear: both; }
+  .site-header {
+    *zoom: 1; }
+
 .site-title {
   display: inline-block;
   font-size: 3em;
@@ -84,6 +96,28 @@ pre {
   display: inline-block;
   font-weight: 400;
   color: #999; }
+
+.site-nav {
+  float: right;
+  font-size: 1.2em;
+  margin-top: 10px; }
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+    line-height: 48px;
+    text-align: right; }
+  .site-nav li {
+    line-height: 48px;
+    margin-left: 1em;
+    display: inline-block; }
+    .site-nav li a {
+      text-decoration: none;
+      padding: .5em 1em;
+      color: #fff; }
+      .site-nav li a:link, .site-nav li a:visited {
+        background-color: #999; }
+      .site-nav li a:hover, .site-nav li a:active {
+        background-color: #2469a0; }
 
 .site-content {
   background-color: #fff; }
