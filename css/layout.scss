@@ -113,6 +113,18 @@
     margin: 0 0 -.5em 0;
 }
 
+.section-about {
+    margin-bottom: 2em;
+
+    p {
+        margin: 0;
+
+        &:last-child,
+        &::last-child {
+            margin-top: 1em;
+        }
+    }
+}
 
 // Mobile Typography
 // -----------------------------

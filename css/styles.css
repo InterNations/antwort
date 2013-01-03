@@ -144,6 +144,13 @@ pre {
 .why-headline {
   margin: 0 0 -0.5em 0; }
 
+.section-about {
+  margin-bottom: 2em; }
+  .section-about p {
+    margin: 0; }
+    .section-about p:last-child, .section-about p::last-child {
+      margin-top: 1em; }
+
 @media screen and (max-width: 768px) {
   .wrapper {
     padding-left: 1.5em;
