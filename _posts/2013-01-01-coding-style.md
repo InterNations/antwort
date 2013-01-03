@@ -2,6 +2,7 @@
 layout: default
 title: Coding Style
 category: how
+description: General coding types about markup styles for email.
 ---
 ## General Coding Tips
 

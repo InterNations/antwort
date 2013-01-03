@@ -1,12 +1,16 @@
 ---
 layout: default
-title: Guide to Responsive Emails
+title: Getting Started with Responsive Emails
 ---
 
-To get started:
+<h2>Getting Started with Antwort</h2>
+<p>To get the most out of Antwort, you should familiarize yourself with coding HTML emails. The following guides will get you started.</p>
 
-<ul>
+<ul class="toc">
 {% for post in site.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+<li class="toc-item">
+    <h3 class="toc-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="toc-desc">{{ post.description }}</p>
+</li>
 {% endfor %}
 </ul>
