@@ -42,6 +42,7 @@ To mimic appearance of paragraphs, I prefer double line breaks `<br><br>` over `
             </td>
         </tr>
     </table>
+{: .language-markup}
 
 Advantages
 
@@ -63,11 +64,11 @@ Personally, I don't use inliner tools. Most of the work in creating HTML emails 
 
 * Ok:
 
-    `font: normal 12px/18px Helvetica, sans-serif;`
+    `font: normal 12px/18px Helvetica, sans-serif;`{: .language-css}
 
 * Better:
 
-    `font-weight: normal; font-size: 12px; line-height: 18px; font-family: Helvetica, sans-serif;`
+    `font-weight: normal; font-size: 12px; line-height: 18px; font-family: Helvetica, sans-serif;`{: .language-css}
 
 Shorthand CSS properties generally work but the full definitions are more bulletproof especially on older email clients.
 
