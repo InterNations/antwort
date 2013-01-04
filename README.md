@@ -27,4 +27,4 @@ Antwort offers responsive layouts for email that both fits _and_ adapt to client
 
 
 ### License
-Antwort is providedd under MIT License - see LICENSE.md for full details.
+Antwort is provided under MIT License - see LICENSE.md for full details.
