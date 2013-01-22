@@ -27,77 +27,85 @@ title: Responsive Layouts for Email
     </ul>
 </section>
 <section class="section section-compatability">
-    <table>
+    <h2>Supports all major Email clients</h2>
+
+    <p>According to December 2012 statistics on <a href="http://emailclientmarketshare.com/" target="_blank">emailclientmarketshare.com</a>, Outlook is still the <strong>second most popular email client with 16% market share</strong>, more than Gmail and Android combined.</p>
+    <p>Unless your own email analytics shows different trends, you should consider Outlook support a high priority.</p>
+
+    <table class="support-table">
         <thead>
             <tr>
-                <th>Email Client</th>
-                <th>Antwort Compatability</th>
-                <th>Other Templates</th>
+                <th class="client">Email Client</th>
+                <th>Antwort</th>
+                <th>Zurb Email templates</th>
                 <th>Media Query Support</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
+                <td class="client">Apple Mail (Desktop)</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
+                <td class="media-query-support is-supported"></td>
+            </tr>
+            <tr>
+                <td class="client">Apple Mail (iOS)</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
+                <td class="media-query-support is-supported"></td>
+            </tr>
+            <tr>
+                <td class="client">Gmail</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
+                <td class="media-query-support not-supported"></td>
+            </tr>
+            <tr>
+                <td class="client">Android Email*</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
+                <td class="media-query-support mixed-supported"></td>
+            </tr>
+            <tr>
+                <td class="client">Outlook 2000/03</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
                 <td class="media-query-support"></td>
             </tr>
             <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
+                <td class="client">Outlook 2007/10/13+</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support not-supported"></td>
+                <td class="media-query-support mixed-supported"></td>
+            </tr>
+            <tr>
+                <td class="client">Hotmail</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
                 <td class="media-query-support"></td>
             </tr>
             <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
+                <td class="client">Outlook.com</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
                 <td class="media-query-support"></td>
             </tr>
             <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
+                <td class="client">Yahoo! Mail</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
                 <td class="media-query-support"></td>
             </tr>
             <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client"></td>
-                <td class="antwort-support"></td>
-                <td class="other-support"></td>
+                <td class="client">AOL Mail</td>
+                <td class="antwort-support is-supported"></td>
+                <td class="other-support is-supported"></td>
                 <td class="media-query-support"></td>
             </tr>
         </tbody>
     </table>
+
+    <p><small>*N.B. Android Gmail app strips out media queries by default and therefore always shows desktop version. To view the mobile version use the Email app.</small></p>
 </section>
 <section class="section section-about">
     <h2>About</h2>
@@ -106,6 +114,8 @@ title: Responsive Layouts for Email
     <p>Version: 0.1</p>
 
     <p>Antwort was created for <a href="http://www.internations.org/" target="_blank">InterNations GmbH</a> and released under the MIT License. <a href="{{ site.repo_url }}">See repository for details</a>.</p>
+
+    <p>Support Icons by <a href="http://somerandomdude.com/work/iconic/" target="_blank">Iconic</a>.</p>
 </section>
 <!--
 <section class="section section-layout">

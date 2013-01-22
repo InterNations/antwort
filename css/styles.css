@@ -186,3 +186,32 @@ pre {
   .guide-backlink a:active {
     color: #d03c0f;
     text-decoration: underline; }
+
+.support-table {
+  margin-bottom: 1em; }
+  .support-table .client {
+    width: 250px;
+    text-align: left; }
+  .support-table .antwort-support,
+  .support-table .other-support,
+  .support-table .media-query-support {
+    width: 100px; }
+  .support-table thead {
+    background-color: #f5f5f5; }
+  .support-table tr {
+    border-bottom: 1px solid #ededed; }
+  .support-table td,
+  .support-table th {
+    padding: .5em; }
+  .support-table .is-supported {
+    background-image: url("../images/icon-check-32x32.png"); }
+  .support-table .not-supported {
+    background-image: url("../images/icon-x-32x32.png"); }
+  .support-table .mixed-supported {
+    /*background-image: url('../images/icon-question-32x32.png');*/ }
+  .support-table .is-supported,
+  .support-table .not-supported,
+  .support-table .mixed-supported {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px; }
