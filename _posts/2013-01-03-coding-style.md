@@ -8,7 +8,14 @@ description: Basic differences and best practices when writing HTML for email cl
 
 # General Coding Tips
 
-Here are some general coding style tips for HTML email.
+Antwort and these tips were written for experienced Email HTML developers. Much of this won't really hit home until you're written an email.
+
+If you're just starting, you should start here instead:
+* [Campaign Monitor's Guide to Coding Emails](http://www.campaignmonitor.com/guides/coding/) - thorough introduction to writing HTML for Email.
+* [Mailchimp Support how-to article on coding HTML Email](http://kb.mailchimp.com/article/how-to-code-html-emails) - shorter than the above novel.
+* [Mailchimp's Email-jitsu](http://mailchimp.com/resources/guides/email-jitsu/) - entertaining read with practical tips.
+
+Then come back here for some general coding style tips for HTML email.
 
 ## HTML
 ----
@@ -75,4 +82,13 @@ Personally, I don't use inliner tools. Most of the work in creating HTML emails 
 Shorthand CSS properties generally work but the full definitions are more bulletproof especially on older email clients.
 
 
+## Other technologies
+----
+
+I'm going to assume you're smart, so I will give you the TLDR version: just say NO to:
+
+* Javascript
+* Flash
+* Video
+* Forms
 
