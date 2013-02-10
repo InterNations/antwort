@@ -107,7 +107,9 @@ N.B. See coding style guide for more on CSS syntax.
 
 ----
 
-## When to use `!important`
+## Not everything needs `!important`
 
-Generally, you only need `!important` to override any inline styles within your `<body>`. I avoid using it otherwise because if you have multiple break points in your media queries, you can end up overriding yourself.
+In the above example, we need `!important` for `float:none;`{: .language-css} and `width:100%;`{: .language-css} to force the `<table>`{: .language-markup} to behave like a block element.
+
+Otherwise I only use them to override any inline styles within the `<body>`{: .language-markup} tag. Overuse can lead to problems when you have multiple break points in your media queries and you accidentally override yourself.
 
