@@ -13,7 +13,7 @@ To illustrate how to create a more complex and interesting layout, for example c
 
 ## Columns Container Table
 
-In your desktop version, to create columns as you would normally would with `<table>`s _not_ `<div>`s as some recommend.
+In your desktop version, to create columns as you would normally would with `<table>`{: .language-markup}s _not_ `<div>`{: .language-markup}s as some recommend.
 An example columns container looks like this.
 
 
@@ -40,9 +40,9 @@ To manipulate the columns into rows, you need the following styles in your `<hea
 {: .language-css}
 
 
-I choose a breakpoint of `600px` instead of `480px` to catch small tablets in addition to smart phones.
+I choose a breakpoint of `600px`instead of `480px` to catch small tablets in addition to smart phones.
 
-This example demonstrates converting 2 columns into rows, but the strategy is the same for more columns. For each additional column, add another `<td>` with the `force-col` class. The mobile styles require no additional editing.
+This example demonstrates converting 2 columns into rows, but the strategy is the same for more columns. For each additional column, add another `<td>`{: .language-markup} with the `force-col`{: .language-markup} class. The mobile styles require no additional editing.
 
 ## Manipulating Content Layout between desktop and mobile
 
@@ -52,7 +52,7 @@ Now let's improve our layout a bit and add content to our columns. Here we have 
 
 which basically consists of the following:
 
-* image, note class of `col-3-image`
+* image, note class of `col-3-image`{: .language-css}
 * headline
 * short copy
 
@@ -78,7 +78,7 @@ We need this extra wrapper table because in our mobile version we want to float/
 
 ![Column Content Transformed to Row Layout]({{ site.baseurl }}/images/content-row.png "Column Content Transformed to Row Layout")
 
-Whereas in normal HTML you need only apply `clear: both;`{: .language-css} to an element, that does not work for some versions of Outlook. The bulletproof way to clear floated images is to wrap them in a `<table>`, above with a class of `col-3`.
+Whereas in normal HTML you need only apply `clear: both;`{: .language-css} to an element, that does not work for some versions of Outlook. The bulletproof way to clear floated images is to wrap them in a `<table>`{: .language-markup}, above with a class of `col-3`{: .language-css}.
 
 And then we manipulate the layout with the following CSS *inside your media query*:
 
