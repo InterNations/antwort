@@ -81,6 +81,16 @@ Personally, I don't use inliner tools. Most of the work in creating HTML emails 
 
 Shorthand CSS properties generally work but the full definitions are more bulletproof especially on older email clients.
 
+### 6. Definte styles using attribute selectors, e.g. `table[class="container"]`{: .language-css}
+
+Throughout Antwort's code, you will find all styles declared via attribute selectors, for example:
+
+    td[class="force-col"] {
+        display: block;
+    }
+{: .language-css}
+
+Don't use classic syntax, e.g. `.container`{: .language-css} or even `table.container`{: .language-css} because [Yahoo mail will render the mobile version of your email](http://www.campaignmonitor.com/blog/post/3457/media-query-issues-in-yahoo-mail-mobile-email/)
 
 ## Other technologies
 ----
