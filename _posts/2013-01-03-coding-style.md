@@ -22,17 +22,17 @@ Then come back here for some general coding style tips for HTML email.
 
 ### 1. Use `<table>`s
 
-Code like it's 1999 with tables. Do not use `<div>`s or floats for layout. Some versions of Microsoft Outlook use its own Word markup processing engine and require tables for layout.
+Code like it's 1999 with tables. Do not use `<div>`{: .language-markup}s or floats for layout. Some versions of Microsoft Outlook use its own Word markup processing engine and require tables for layout.
 
 ### 2. Nest tables for complex layouts
 
-Avoid `rowspan` altogether and minimize use of `colspan`. You may find yourself constantly tweaking your template and code legibility and flexibility is important here. It's far easier to copy and paste nested tables than figure out which columns go where.
+Avoid `rowspan`{: .language-markup} altogether and minimize use of `colspan`{: .language-markup}. You may find yourself constantly tweaking your template and code legibility and flexibility is important here. It's far easier to copy and paste nested tables than figure out which columns go where.
 
-### 3. Avoid semantic HTML tags e.g. `<p>`, `<h1>`, `<h2>` etc.
+### 3. Avoid semantic HTML tags e.g. `<p>`{: .language-markup}, `<h1>`{: .language-markup}, `<h2>`{: .language-markup} etc.
 
 Use heading tags and suddenly your may find your heading text green, for example in Hotmail which uses these tags in their own markup.
 
-To mimic appearance of paragraphs, I prefer double line breaks `<br><br>` over `<p>`s:
+To mimic appearance of paragraphs, I prefer double line breaks `<br><br>`{: .language-markup} over `<p>`{: .language-markup}s:
 
     <table>
         <tr>
@@ -55,8 +55,8 @@ To mimic appearance of paragraphs, I prefer double line breaks `<br><br>` over `
 
 Advantages
 
-* Double line breaks `<br><br>` are consistently rendered across all email clients whereas some have custom margins or padding for `<p>`.
-* Declare font styles **once** in a parent `<td>` tag instead of every `<p>`.
+* Double line breaks `<br><br>`{: .language-markup} are consistently rendered across all email clients whereas some have custom margins or padding for `<p>`{: .language-markup}.
+* Declare font styles **once** in a parent `<td>`{: .language-markup} tag instead of every `<p>`{: .language-markup}.
 * Better readability of content
 
 ## CSS
