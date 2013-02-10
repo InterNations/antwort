@@ -103,5 +103,11 @@ And then we manipulate the layout with the following CSS *inside your media quer
         }
 {: .language-css}
 
+N.B. See coding style guide for more on CSS syntax.
 
+----
+
+## When to use `!important`
+
+Generally, you only need `!important` to override any inline styles within your `<body>`. I avoid using it otherwise because if you have multiple break points in your media queries, you can end up overriding yourself.
 
