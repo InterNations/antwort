@@ -97,7 +97,7 @@ Don't use classic syntax, e.g. `.container`{: .language-css} or even `table.cont
 
 Floats are not supported in Outlook so your baseline HTML should always resort to using `align="left"`{: .language-markup}, etc. with your `<table>`{: .language-markup}s *and* `<img>`{: .language-markup}s.
 
-Don't worry, you can still use `<table`>{: .language-markup}s to [**create a responsive layout and turn columns into rows**]({{ site.baseurl }}{% post_url 2013-01-01-transform-columns-to-rows %}). Thank you Antwort.
+Don't worry, you can still use `<table`>{: .language-markup}s to [**create a responsive layout and turn columns into rows**]({{ site.baseurl }}{% post_url 2013-01-02-transform-columns-to-rows %}). Thank you Antwort.
 
 So remember: default to `<table align="left">`{: .language-markup}s and *only* use `float`{: .language-css} in your mobile styles.
 
