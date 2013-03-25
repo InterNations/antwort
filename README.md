@@ -7,7 +7,7 @@ Antwort offers responsive layouts for email that both fits _and_ adapts to clien
 
 Author: Julie Ng ([@jng5](http://twitter.com/jng5))  
 Date: January 2013  
-Version: 0.1  
+Version: 0.1.1   
 
 ## Features
 * Works on mobile: Mail on iOS and Email on Android
