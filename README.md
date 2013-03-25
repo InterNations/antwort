@@ -10,9 +10,12 @@ Date: January 2013
 Version: 0.1  
 
 ## Features
-* Works in Outlook (2000+)
+* Works on mobile: Mail on iOS and Email on Android
+* Works in major clients like Hotmail, Gmail, Yahoo! and AOL
+* Even works in Outlook (2000+)
 * Bulletproof layouts: made with dynamic content in mind.
 * Minimalist in design for maximum customizability
+* [More details on Antwort site »](http://internations.github.com/antwort/)
 
 ## How to use
 1. [Read tips and coding style guidelines](http://internations.github.com/antwort)
