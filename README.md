@@ -28,6 +28,17 @@ Version: 0.1.1
 * [Premailer](http://premailer.dialect.ca/) another CSS inline tool. Also generates text version.
 * [Litmus](http://www.litmus.com/) for testing emails across clients.
 
+## Changelog
+
+### 0.1.1
+* Fixed column margin issue after [Hotmail/Outlook dropped margin support](https://litmus.com/blog/hotmail-and-outlook-com-drop-support-for-margin).
+* Issue #5 fixed - Outlook.com parses HTML tags in comments
+* Issue #3 fixed - control characters removed from template
+* Added screenshots of current version from Litmus test
+ 
+
+### 0.1.0
+* Hello open source world
 
 ## License
 Antwort is provided under the MIT License - see LICENSE.md for full details.
