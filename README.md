@@ -10,16 +10,16 @@ Date: January 2013
 Version: 0.1.1   
 
 ## Features
-* Works on mobile: Mail on iOS and Email on Android
-* Works in major clients like Hotmail, Gmail, Yahoo! and AOL
-* Even works in Outlook (2000+)
+* Works on mobile: Mail on iOS and Email on Android.
+* Works in major clients like Hotmail, Gmail, Yahoo! and AOL.
+* Even works in Outlook (2000+).
 * Bulletproof layouts: made with dynamic content in mind.
-* Minimalist in design for maximum customizability
+* Minimalist in design for maximum customizability.
 * [More details on Antwort site »](http://internations.github.com/antwort/)
 
 ## How to use
-1. [Read tips and coding style guidelines](http://internations.github.com/antwort)
-2. Test with [Litmus](https://litmus.com/)
+1. [Read tips and coding style guidelines](http://internations.github.com/antwort).
+2. Test with [Litmus](https://litmus.com/).
 3. Send!
 
 ## Tools and Resources
@@ -32,13 +32,13 @@ Version: 0.1.1
 
 ### 0.1.1
 * Fixed column margin issue after [Hotmail/Outlook dropped margin support](https://litmus.com/blog/hotmail-and-outlook-com-drop-support-for-margin).
-* Issue #5 fixed - Outlook.com parses HTML tags in comments
-* Issue #3 fixed - control characters removed from template
-* Added screenshots of current version from Litmus test
+* Issue #5 fixed - Outlook.com parses HTML tags in comments.
+* Issue #3 fixed - control characters removed from template.
+* Added screenshots of current version from Litmus test.
  
 
 ### 0.1.0
-* Hello open source world
+* Hello open source world.
 
 ## License
 Antwort is provided under the MIT License - see LICENSE.md for full details.
