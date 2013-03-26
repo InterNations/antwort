@@ -9,6 +9,10 @@ Author: Julie Ng ([@jng5](http://twitter.com/jng5))
 Date: January 2013  
 Version: 0.1.1   
 
+## Demo
+* Download and resize your browser window to see its responsiveness.
+* [View demo screenshots](https://github.com/InterNations/antwort/blob/gh-pages/screenshots-litmus/) to see *how it looks* in various Email clients, including Android 2.3, Outlook 2000, Apple Mail, etc.
+
 ## Features
 * Works on mobile: Mail on iOS and Email on Android.
 * Works in major clients like Hotmail, Gmail, Yahoo! and AOL.
