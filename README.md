@@ -3,7 +3,7 @@
 ### Repsonive Layouts for Email
 ![Responsive Layouts for Email](http://internations.github.com/antwort/images/responsive-graphic-small.png "Responsive Layouts for Email")
 
-Antwort offers responsive layouts for email that both fits _and_ adapts to client widths. Don't underwhelm desktop users with single column layouts that work for mobile. Antwort offers columns on desktop that automatically become rows on mobile.
+Antwort offers responsive layouts for Email that both fits _and_ adapts to client widths. Don't underwhelm desktop users with single column layouts that work for mobile. Antwort offers columns on desktop that automatically become rows on mobile.
 
 Author: Julie Ng ([@jng5](http://twitter.com/jng5))  
 Date: January 2013  
@@ -30,7 +30,7 @@ Version: 0.1.1
 * [Campaign Monitor's Guide to CSS Support](http://www.campaignmonitor.com/css) - reference table for CSS support in major email clients.
 * [CSS Inliner Tool](http://beaker.mailchimp.com/inline-css) from MailChimp.
 * [Premailer](http://premailer.dialect.ca/) another CSS inline tool. Also generates text version.
-* [Litmus](http://www.litmus.com/) for testing emails across clients.
+* [Litmus](http://www.litmus.com/) for testing Emails across clients.
 
 ## Changelog
 
