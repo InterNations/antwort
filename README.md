@@ -7,7 +7,7 @@ Antwort offers responsive layouts for Email that both fits _and_ adapts to clien
 
 Author: Julie Ng ([@jng5](http://twitter.com/jng5))  
 Date: January 2013  
-Version: 0.1.1   
+Version: 0.1.2
 
 ## Demo
 * Download and resize your browser window to see its responsiveness.
@@ -33,6 +33,10 @@ Version: 0.1.1
 * [Litmus](http://www.litmus.com/) for testing Emails across clients.
 
 ## Changelog
+
+### 0.1.2
+* Fixed issue #8 - headlines no longer centered in Outlook.com and older Outlook.
+* Fixed issue #7 - moved padding overrides to parent `<td>` in mobile styles.
 
 ### 0.1.1
 * Fixed column margin issue after [Hotmail/Outlook dropped margin support](https://litmus.com/blog/hotmail-and-outlook-com-drop-support-for-margin).
