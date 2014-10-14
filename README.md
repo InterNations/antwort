@@ -36,15 +36,21 @@ Included templates as of v1.0.0 release (14 October 2014):
     <tr>
       <td align="center" valign="top">
         <strong>Single Column</strong><br><br>
-        <img src="http://internations.github.io/antwort/images/v1-previews/1-col.png" style="max-width: 95%;">
+        <a href="https://github.com/InterNations/antwort/tree/master/single-column">
+          <img src="http://internations.github.io/antwort/images/v1-previews/1-col.png" style="max-width: 95%;">
+        </a>
       </td>
       <td align="center" valign="top">
         <strong>Two Columns (text)</strong><br><br>
-        <img src="http://internations.github.io/antwort/images/v1-previews/2-cols.png" style="max-width: 95%;">
+        <a href="https://github.com/InterNations/antwort/tree/master/two-cols-simple">
+          <img src="http://internations.github.io/antwort/images/v1-previews/2-cols.png" style="max-width: 95%;">
+        </a>
       </td>
       <td align="center" valign="top">
         <strong>Three Columns (images)</strong><br><br>
-        <img src="http://internations.github.io/antwort/images/v1-previews/3-cols-images.png" style="max-width: 95%;">
+        <a href="https://github.com/InterNations/antwort/tree/master/three-cols-images">
+          <img src="http://internations.github.io/antwort/images/v1-previews/3-cols-images.png" style="max-width: 95%;">
+        </a>
       </td>
     </tr>
     <tr>
@@ -54,7 +60,6 @@ Included templates as of v1.0.0 release (14 October 2014):
     </tr>
   </tbody>
 </table>
-
 
 
 ## How to use Antwort
