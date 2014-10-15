@@ -1,120 +1,38 @@
----
-layout: default
-title: Responsive Layouts for Email
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Antwort - Responsive Layouts for Email</title>
+  <meta name="description" content="Email template for responsive layouts, not just widths.">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-<h1 class="claim">Fits <em>and</em> adapts to client widths</h1>
-<div class="hero-image">
-    <img src="images/responsive-graphic.png" border="0" alt="Real responsive Email layouts">
-</div>
+  <div class="container">
+    <div class="banner">
+      <h1 class="site-title">Antwort</h1>
+      <h2 class="claim">Fits <em>and</em> adapts to client widths</h2>
+      <a href="https://github.com/InterNations/antwort">
+        <img src="images/responsive-graphic.png" width="400" height="256" border="0" alt="Real responsive Email layouts">
+      </a>
+    </div>
 
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/InterNations/antwort">Download on GitHub</a>
+      <a class="btn btn-secondary" href="https://github.com/InterNations/antwort/wiki">Documentation</a>
+    </div>
 
-<section class="section section-why">
-    <h2>Why use Antwort?</h2>
-    <ul class="why-list">
-        <li>
-            <h3 class="why-headline">Bulletproof layouts: made with dynamic content in mind.</h3>
-            <p>Originally made for transactional Emails with dynamic content so the layouts are thoroughly tested - in live environments with real data and edge cases.</p>
-        </li>
-        <li>
-            <h3 class="why-headline">Responsive Emails don't have to be boring</h3>
-            <p>A single column layout might work well on mobile but often prevents an underwhelming experience for desktop users. Why not satisfy both?</p>
-        </li>
-        <li>
-            <h3 class="why-headline">Works across all devices, including Outlook</h3>
-            <p>Other solutions use <code>float</code>s, which many clients including Outlook don't understand. Antwort uses <code>&lt;table&gt;</code>s for universal compatability.</p>
-        </li>
-
-    </ul>
-</section>
-<section class="section section-compatability">
-    <h2>Supports all major Email clients</h2>
-
-    <p>According to December 2012 statistics on <a href="http://emailclientmarketshare.com/" target="_blank">emailclientmarketshare.com</a>, Outlook is still the <strong>second most popular email client with 16% market share</strong>, more than Gmail and Android combined.</p>
-    <p>Unless your own email analytics shows different trends, you should consider Outlook support a high priority.</p>
-
-    <table class="support-table">
-        <thead>
-            <tr>
-                <th class="client">Email Client</th>
-                <th>Antwort</th>
-                <th>Zurb Email templates</th>
-                <th>Media Query Support</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="client">Apple Mail (Desktop)</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support is-supported"></td>
-            </tr>
-            <tr>
-                <td class="client">Apple Mail (iOS)</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support is-supported"></td>
-            </tr>
-            <tr>
-                <td class="client">Gmail</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support not-supported"></td>
-            </tr>
-            <tr>
-                <td class="client">Android Email*</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support mixed-supported"></td>
-            </tr>
-            <tr>
-                <td class="client">Outlook 2000/03</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client">Outlook 2007/10/13+</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support not-supported"></td>
-                <td class="media-query-support mixed-supported"></td>
-            </tr>
-            <tr>
-                <td class="client">Hotmail</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client">Outlook.com</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client">Yahoo! Mail</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support"></td>
-            </tr>
-            <tr>
-                <td class="client">AOL Mail</td>
-                <td class="antwort-support is-supported"></td>
-                <td class="other-support is-supported"></td>
-                <td class="media-query-support"></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <p><small>*N.B. Android Gmail app strips out media queries by default and therefore always shows desktop version. To view the mobile version use the Email app.</small></p>
-</section>
-<section class="section section-about">
-    <h2>About</h2>
+    <h3>About</h3>
     <p> Author: <a href="http://www.twitter.com/jng5" target="_blank">Julie Ng (@jng5)</a><br>
-        Released: January 2013<br>
-        Version: 0.1</p>
+        Released: October 2014<br>
+        Version: 1.0</p>
 
-    <p>Antwort was created for <a href="http://www.internations.org/" target="_blank">InterNations GmbH</a> and released under the <a href="{{ site.repo_url }}/blob/master/LICENSE.md">MIT License</a>.</p>
+    <p>Antwort was initially created for <a href="http://www.internations.org/" target="_blank">InterNations GmbH</a><br> and released under the >MIT License.</p>
 
-    <p>Support Icons by <a href="https://useiconic.com/open/" target="_blank">Iconic</a>.</p>
-</section>
+  </div>
+</body>
+</html>
+
