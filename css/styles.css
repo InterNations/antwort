@@ -123,12 +123,24 @@ a.btn-secondary:hover {
   color: #333;
 }
 
+.about {
+  margin: 1em auto;
+}
+
+.about td {
+  text-align: left;
+}
+
+.about td:first-child {
+  width: 80px;
+}
 
 #carbonads {
   width: 320px;
-  margin: 4em auto 1em;
+  margin: 3em auto;
   border: 1px solid #ededed;
   padding: 1.5em 1em;
+  text-align: left;
 }
 
 .carbon-img img {
