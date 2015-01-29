@@ -123,6 +123,48 @@ a.btn-secondary:hover {
   color: #333;
 }
 
+
+#carbonads {
+  width: 320px;
+  margin: 4em auto 1em;
+  border: 1px solid #ededed;
+  padding: 1.5em 1em;
+}
+
+.carbon-img img {
+  float: left;
+  margin-right: 18px;
+  font-size: 14px;
+}
+
+.carbon-text {
+  display: block;
+  float: none;
+  width: auto;
+  height: auto;
+  margin-left: 136px;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.carbon-text:link,
+.carbon-text:visited {
+  color: #666;
+}
+
+.carbon-poweredby {
+  display: block;
+  margin-top: 1em;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.carbon-poweredby:link,
+.carbon-poweredby:visited {
+  color: #aaa;
+}
+
 @media screen and (max-width: 600px) {
   img {
     height: auto !important;
