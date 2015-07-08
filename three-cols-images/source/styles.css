@@ -62,6 +62,7 @@ hr {
 
 .subtitle {
   font-size: 16px;
+  line-height: 22px;
   font-weight: 600;
   color: #2469A0;
 }
@@ -100,9 +101,12 @@ hr {
   line-height: 20px;
   text-align: left;
   color: #333333;
-  margin-top: 12px;
+}
+
+.img-wrapper td {
+  padding-bottom: 18px;
 }
 
 .subtitle {
-  margin-top: 18px;
+  padding-bottom: 6px;
 }

@@ -66,13 +66,14 @@ img {
   .col {
     width: 100% !important;
     border-top: 1px solid #eee;
+    padding-bottom: 0 !important;
   }
 
   .cols-wrapper {
     padding-top: 18px;
   }
 
-  .image {
+  .img-wrapper {
     float: right;
     max-width: 40% !important;
     height: auto !important;
