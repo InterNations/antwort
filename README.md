@@ -78,6 +78,19 @@ Before [posting an issue](https://github.com/InterNations/antwort/issues), pleas
 
 ## Changelog
 
+### 1.0.2
+
+8 July 2015
+
+* New: removed `attribute=""` CSS selector syntax now that [Yahoo Mail fixed their CSS parser](https://www.emailonacid.com/blog/article/industry-news/yahoo_mail_now_supports_media_queries)
+* Fixed: Three columns with images: replaced margins with padding to support Outlook.com
+
+### 1.0.1
+
+3 December 2014
+
+* Added `<meta http-equiv="X-UA-Compatible" content="IE=edge">` to enable media queries on Windows 8 phones
+
 ### 1.0.0
 
 14 October 2014
