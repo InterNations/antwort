@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
   <title>Two Columns to Rows (Simple)</title>
-
+  
   <style type="text/css">
 body {
   margin: 0;
@@ -55,14 +55,14 @@ img {
 }
 
 @media screen and (max-width: 599px) {
-  table[class="force-row"],
-  table[class="container"] {
+  .force-row,
+  .container {
     width: 100% !important;
     max-width: 100% !important;
   }
 }
 @media screen and (max-width: 400px) {
-  td[class*="container-padding"] {
+  .container-padding {
     padding-left: 12px !important;
     padding-right: 12px !important;
   }
@@ -72,8 +72,8 @@ img {
   text-decoration: underline;
 }
 </style>
-
 </head>
+
 <body style="margin:0; padding:0;" bgcolor="#F0F0F0" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
 <!-- 100% background wrapper (grey background) -->
@@ -101,7 +101,7 @@ img {
   <br><br>
 </div>
 
-<div class="hr" style="height:1px;border-bottom:1px solid #cccccc"> </div>
+<div class="hr" style="height:1px;border-bottom:1px solid #cccccc">&nbsp;</div>
 <br>
 
 <!-- example: two columns (simple) -->
@@ -139,7 +139,7 @@ img {
 
 <!--/ end example -->
 
-<div class="hr" style="height:1px;border-bottom:1px solid #cccccc;clear: both;"> </div>
+<div class="hr" style="height:1px;border-bottom:1px solid #cccccc;clear: both;">&nbsp;</div>
 <br>
 
 <div class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;font-weight:600;color:#2469A0">
@@ -183,7 +183,7 @@ img {
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Sample Footer text: © 2014 Acme, Inc.
+            Sample Footer text: © 2015 Acme, Inc.
             <br><br>
 
             You are receiving this email because you opted in on our website. Update your <a href="#" style="color:#aaaaaa">email preferences</a> or <a href="#" style="color:#aaaaaa">unsubscribe</a>.
