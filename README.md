@@ -54,12 +54,16 @@ Included templates as of v1.0.0 release (14 October 2014):
       </td>
     </tr>
     <tr>
-      <td align="center"><a href="https://litmus.com/pub/23497a4" target="_blank">Litmus Previews</a></td>
-      <td align="center"><a href="https://litmus.com/pub/2e0aaa0" target="_blank">Litmus Previews</a></td>
-      <td align="center"><a href="https://litmus.com/pub/de912ba" target="_blank">Litmus Previews</a></td>
+      <td align="center"><a href="https://litmus.com/pub/f6f088c" target="_blank">Litmus Previews</a></td>
+      <td align="center"><a href="https://litmus.com/pub/884c2a3" target="_blank">Litmus Previews</a></td>
+      <td align="center"><a href="https://litmus.com/pub/eae4ebf" target="_blank">Litmus Previews</a></td>
     </tr>
   </tbody>
 </table>
+
+NOTE: many Litmus thumbnails are broken and not showning the white background container. But if you view the large version, you will see that **the Antwort templates render perfectly as intended**.
+
+Screenshots updated on 13 January 2016.
 
 
 ## How to use Antwort
