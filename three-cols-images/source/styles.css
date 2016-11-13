@@ -110,3 +110,13 @@ hr {
 .subtitle {
   padding-bottom: 6px;
 }
+
+a[href^="x-apple-data-detectors:"],
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
